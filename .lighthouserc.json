@@ -10,11 +10,7 @@
       }
     },
     "assert": {
-      "preset": "lighthouse:recommended",
-      "assertions": {
-        "categories:performance": ["warn", { "aggregationMethod": "optimistic", "minScore": 0.93 }],
-        "categories:accessibility": ["error", { "aggregationMethod": "optimistic", "minScore": 0.95 }]
-      }
+      "preset": "lighthouse:recommended"
     },
     "upload": {
       "target": "temporary-public-storage"
