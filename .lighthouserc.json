@@ -1,7 +1,6 @@
 {
   "ci": {
     "startServerCommand": "npm run start",
-    "startServerReadyPattern": "ready on",
     "url": ["http://localhost:3000"],
     "numberOfRuns": 1,
     "settings": {
